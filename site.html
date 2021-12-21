@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <style>
+        body{
+            background: #222;
+        }
+        .child {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 35vh;
+        }
+        button {   
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            background: #ff4473;
+            border-radius: 10px;
+            border-style: hidden;
+            height: 30vh;
+            width: 400px;
+            font-size: 60px;
+        }
+    </style>
+    <script>
+        var codeblock = '<head>'+
+    '<meta charset="UTF-8">'+
+    '<meta http-equiv="X-UA-Compatible" content="IE=edge">'+
+    '<meta name="viewport" content="width=device-width, initial-scale=1.0">'+
+    '<title>Rick Rolled</title>'+
+    '<style type="text/css">'+
+        'html {'+
+            'background: #222;'+
+        '}'+
+        '.video {'+
+            'width: auto;'+
+            'height: auto;'+
+        '}'+
+        '.gif0 {'+
+            'display: flex;'+
+            'align-items: center;'+
+            'justify-content: center;'+
+            'flex-direction: column;'+
+            'margin-top: 2px;'+
+        '}'+
+        'iframe.gif {'+
+            'display: flex;'+
+            'flex-direction: column;'+
+            'align-items: center;'+
+            'justify-content: center;'+
+            'margin-top: 20.5vh;'+
+            'width: 350px;'+
+            'height: 41vh;'+
+            'border-radius: 10px;'+
+        '}'+
+        'h1 {'+
+            'font-size: 50px;'+
+            'font-weight: bold;'+
+            'font-family: "Comic Sans MS", "Comic Sans", cursive;'+
+            'color: #ff4473;'+
+        '}'+
+    '</style>'+
+'</head>'+
+'<body>'+
+    '<div class="video">'+
+        '<div class="gif"><div class="gif0"><iframe src="https://giphy.com/embed/lgcUUCXgC8mEo" frameBorder="0" class="gif"></iframe><h1>FOI RICK ROLLADO</h1></div></div>'+
+    '</div>'+
+    '<iframe width="1" height="1" src="https://www.youtube.com/embed/iik25wqIuFo?autoplay=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+
+'</body>';
+    </script>
+    <div class="child">
+        <button onclick="document.getElementById('body').innerHTML = codeblock">mlk só clica</button>
+    </div>  
+</body>
+</html>
